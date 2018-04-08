@@ -4,16 +4,6 @@ body {
 	font-family: helvetica;
 }
 
-/* footer {
-	height: 200px;
-	background: red;
-	background: linear-gradient(red, yellow);
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-} */
-
 header {
 	line-height: 95px;
 	/* background-color: black; */
@@ -33,9 +23,30 @@ nav a {
 	margin: 0px 10px;
 }
 
+span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	text-align: center;
+}
+
 #logo {
 	width: 100px;
 	vertical-align: middle;
+}
+
+#title {
+	top: 20%;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+#subtitle {
+	top: 30%;
+	font-size: 30px;
+	font-weight: 200;
 }
 
 .section {

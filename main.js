@@ -1,8 +1,3 @@
-// document.getElementByClassName("status").addEventListener("click", setActive);
-//
-// function setActive(id) {
-// 	document.getElementById(id).classList.toggle("current");
-// }
 document.getElementById("1").addEventListener("click", () => {
 	document.getElementById("1").classList.add("current");
 	document.getElementById("2").classList.remove("current");
