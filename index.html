@@ -2,38 +2,39 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Blah</title>
-		<link rel="stylesheet" type="text/css" href="main.css">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	<body>
-		<!-- Landing -->
-		<div class="landing">
-			<h1 class="proj-title">Biology Project – Infectious Disease</h1>
-			<h2 class="proj-title" id="proj-subtitle">Jimmy Pham | Alex Chen</h2>
-			<div id="start"><a href="index.html#circle">Start</a></div>
-		</div>
-		<!-- Postlanding -->
-		<div class="container">
-			<h1 id="title">The Cell Cycle</h1>
-			<div class="buttons">
-				<ul>
-					<li><a href="#">Interphase</a></li>
-					<li><a href="#">Mitosis</a></li>
-					<li><a href="#">Cytokinesis</a></li>
-				</ul>
+		<header>
+			<!-- <img id="logo" src="images/logo2.png" alt="logo2.png"> -->
+			<nav>
+				<a href="#Home">Home</a>
+				<a href="#Disease1">Rabies</a>
+				<a href="#Disease2">Disease 2</a>
+				<a href="#Disease3">Disease 3</a>
+				<a href="#References">References</a>
+			</nav>
+		</header>
+		<div class="main">
+			<div id="Home" class="section home">
+				<!-- <h1>Welcome</h1> -->
+				<a class="button" id="welcome-button" href="#Disease1">Welcome</a>
 			</div>
-			<div class="circle-container">
-				<div id="circle"></div>
+			<div id="Disease1" class="section Disease1">
+				<h1>Rabies</h1>
+			</div>
+			<div id="Disease2" class="section Disease2">
+				<h1>HIV/Aids</h1>
+			</div>
+			<div id="Disease3" class="section Disease3">
+				<h1>Ebola</h1>
+			</div>
+			<div id="References" class="section References">
+				<h1>References</h1>
 			</div>
 		</div>
-		<!-- Disease 1 -->
-		<div class="phases">
-			<section class="interphase">
-				<h1>Interphase</h1>
-			</section>
-		</div>
-		<script type="text/javascript" src="main.js"></script>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="smoothscroll.js"></script>
+
+		<script type="text/javascript" src="node_modules/zenscroll/zenscroll.js"></script>
 	</body>
 </html>

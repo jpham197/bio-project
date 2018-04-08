@@ -1,0 +1,149 @@
+body {
+	/* background-color: black; */
+	margin: 0px;
+	font-family: helvetica;
+}
+
+/* footer {
+	height: 200px;
+	background: red;
+	background: linear-gradient(red, yellow);
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+} */
+
+header {
+	line-height: 95px;
+	/* background-color: black; */
+}
+
+nav {
+	display: inline-block;
+	/* vertical-align: middle; */
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	margin: 0px 10px;
+}
+
+#logo {
+	width: 100px;
+	vertical-align: middle;
+}
+
+.section {
+	margin: 0px 0px;
+	height: 700px;
+}
+
+.home {
+	margin: 0px;
+	line-height:700px;
+}
+
+.section > h1 {
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+
+.section p {
+	margin: 0px 0px 0px 10px;
+}
+
+.home::before {
+	content: ' ';
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	opacity: 0.9;
+	background-image: url(images/background1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+.Disease1::before {
+	content: ' ';
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	opacity: 0.5;
+	background-image: url(images/background2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+.Disease2::before {
+	content: ' ';
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	opacity: 0.5;
+	background-image: url(images/background3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+.Disease3::before {
+	content: ' ';
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	opacity: 0.5;
+	background-image: url(images/background4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+.References::before {
+	content: ' ';
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	opacity: 0.5;
+	background-image: url(images/background5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+.button {
+	position: relative;
+	left: 46%;
+	vertical-align: baseline;
+	border: 2px solid black;
+	padding: 15px;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+}
+
+.button:hover {
+	transform: scale(1.1, 1.1);
+	color: white;
+	border: 2px solid white;
+
+}
+
+.section > h1 {
+
+}
