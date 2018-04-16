@@ -1,3 +1,11 @@
+document.getElementById("welcome-button").addEventListener("click", () => {
+	document.getElementById("2").classList.add("current");
+	document.getElementById("3").classList.remove("current");
+	document.getElementById("4").classList.remove("current");
+	document.getElementById("5").classList.remove("current");
+	document.getElementById("1").classList.remove("current");
+});
+
 document.getElementById("1").addEventListener("click", () => {
 	document.getElementById("1").classList.add("current");
 	document.getElementById("2").classList.remove("current");
