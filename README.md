@@ -1,5 +1,6 @@
 # Biology Project on Diseases
 Project details can be found here: https://pastebin.com/DQq9gYde
+
 Actual project is viewable here: https://jpham197.github.io/bio-project
 
 ## Updates
